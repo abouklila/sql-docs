@@ -277,7 +277,7 @@ CREATE TABLE mytbl2
  c1 sysname  
 );  
 GO  
-INSERT mytbl2 VALUES ('Discount is 10-15% off'), ('Discount is .10-.15 off');  
+INSERT mytbl2 VALUES ('Discount is 10-15% off'), ('Discount is .10-15 off');  
 GO  
 SELECT c1   
 FROM mytbl2  
